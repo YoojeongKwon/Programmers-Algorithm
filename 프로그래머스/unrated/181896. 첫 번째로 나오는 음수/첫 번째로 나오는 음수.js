@@ -13,3 +13,5 @@ function solution(num_list) {
             return -1
         }
 }
+
+// const answer = num_list.findIndex(el => el < 0)
