@@ -8,3 +8,11 @@ function solution(myString) {
     })
     return answer.sort()
 }
+
+// filter 사용 계속 생각하기!!
+// function solution(myString) {
+//   return myString
+//     .split("x")
+//     .filter((str) => str !== "")
+//     .sort();
+// }
