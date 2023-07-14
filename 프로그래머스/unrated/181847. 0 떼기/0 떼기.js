@@ -8,3 +8,5 @@ function solution(n_str) {
     
     return n_str.substring(index);
 }
+
+// const solution = (str) => String(Number(str))
