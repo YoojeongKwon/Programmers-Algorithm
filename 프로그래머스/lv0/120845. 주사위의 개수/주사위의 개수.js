@@ -1,3 +1,3 @@
 function solution(box, n) {
-    return box.map(el => parseInt(el/n)).reduce((acc, curr) => acc * curr, 1)
+    return box.reduce((acc, curr) => acc * parseInt(curr/n), 1)
 }
