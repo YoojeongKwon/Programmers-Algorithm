@@ -12,7 +12,7 @@ function solution(n, slicer, num_list) {
         return num_list.slice(a, b+1)
     }
     
-    for (let i = a; i <= b; i+=2) {
+    for (let i = a; i <= b; i+=c) {
         answer = [...answer, num_list[i]]
     }
     return answer;
