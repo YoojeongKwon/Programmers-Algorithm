@@ -1,15 +1,4 @@
 function solution(age) {
-    const numToStr = {
-        '0' : 'a',
-        '1' : 'b', 
-        '2' : 'c',
-        '3' : 'd',
-        '4' : 'e',
-        '5' : 'f',
-        '6' : 'g',
-        '7' : 'h',
-        '8' : 'i',
-        '9' : 'j',
-    }
-    return String(age).split('').map(num => numToStr[num] ).join('')
+    // 문자열에도 인덱스가 있으니 아래처럼 작성 가능
+    return age.toString().split("").map(num => "abcdefghij"[num]).join("");
 }
