@@ -1,13 +1,5 @@
 function solution(dot) {
-    const answer = dot.filter(n => n > 0).length;
+    const [num1, num2] = dot;
     
-    if(answer === 2) {
-        return 1
-    } else if (answer === 0) {
-        return 3
-    } else if (answer === 1 && dot[0] < 0) {
-        return 2
-    } else {
-        return 4
-    }
+    return num1 > 0 ? (num2 > 0 ? 1 : 4) : (num2 > 0 ? 2 : 3) 
 }
