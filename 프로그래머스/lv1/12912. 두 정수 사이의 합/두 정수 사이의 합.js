@@ -17,3 +17,6 @@ function solution(a, b) {
         return a
     }
 }
+
+// 등차수열의 합
+// return (a + b) * (Math.abs(a - b) + 1) / 2
