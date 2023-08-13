@@ -1,3 +1,4 @@
 function solution(slice, n) {
-    return n%slice === 0 ? n/slice : Math.floor(n/slice) + 1
+    // 올림하는 방법이 더 간단허네...
+    return Math.ceil(n/slice)
 }
