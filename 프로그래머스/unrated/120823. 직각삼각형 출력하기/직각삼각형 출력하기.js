@@ -11,12 +11,8 @@ rl.on('line', function (line) {
 }).on('close', function () {
     //console.log(Number(input[0]));
     
-    let pattern = ''
-    
     for(let i = 1; i <= Number(input[0]); i++) {
-        pattern = pattern + '*'.repeat(i) + '\n'
+        console.log('*'.repeat(i))
     }
-    
-    console.log(pattern)
 });
 
