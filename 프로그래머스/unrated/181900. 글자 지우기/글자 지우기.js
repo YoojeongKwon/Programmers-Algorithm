@@ -1,8 +1,8 @@
 function solution(my_string, indices) {
-   var answer = '';
+    var answer = '';
     
-    for (let i = 0; i < my_string.length; i++) {
-        if (!indices.includes(i)) {
+    for(let i = 0; i < my_string.length; i++) {
+        if(!indices.includes(i)) {
             answer += my_string[i]
         }
     }
